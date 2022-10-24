@@ -4,9 +4,8 @@
 </head>
 <body>
 
-<p align="center"><h1>TestEatery</h2></p>
-<p align="center"><h1>Thanks for Watching</h2></p>
-<h1 align="center">Material Bread</h1>
+<h1 align="center">TestEatery</h2>
+<h1 align="center">Thanks for Watching</h2>
 
 </body>
 </html>
