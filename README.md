@@ -4,10 +4,10 @@
 </head>
 <body>
 
-<center>
+<p align="center">
 <h1>TestEatery</h2>
 <p><h1>Thanks for Watching</h2></p>
-</center>
+</p>
 
 </body>
 </html>
