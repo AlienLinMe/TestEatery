@@ -1,0 +1,10 @@
+FROM ubuntu:22.04
+LABEL maintainer="timeayzek@gmail.com"
+LABEL version="0.1"
+LABEL description="Ubuntu+Nginx+GitHub with custom html"
+RUN apt-get update && apt-get install nginx -y \
+    && 
+    && git clone https://github.com/AlienLinMe/TestEatery/blob/main/index.html
+    && service nginx start
+EXPOSE 80/tcp
+CMD ["nginx", "-g", "daemon off;"]
